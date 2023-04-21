@@ -1,4 +1,3 @@
-# nba101.github.io
 <html>
 
     <head>
