@@ -1,21 +1,69 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
-  <head>
-    <title>History of the Los Angeles Lakers</title>
-  </head>
-  <body>
-    <h1>History of the Los Angeles Lakers</h1>
-    <h2>Early Days of the Lakers</h2>
-    <img src="https://cdn.pixabay.com/photo/2019/06/09/20/16/basketball-4261861_960_720.jpg" alt="Los Angeles Lakers logo">
-    <p>The Lakers were originally founded in 1947 as the Minneapolis Lakers. The team won five championships in Minneapolis before relocating to Los Angeles in 1960.</p>
-    <h2>The Showtime Era</h2>
-    <img src="https://cdn.pixabay.com/photo/2019/11/10/20/28/basketball-4619525_960_720.jpg" alt="Los Angeles Lakers game">
-    <p>The 1980s were a golden era for the Lakers, as they won five NBA championships during the decade. Led by Magic Johnson, Kareem Abdul-Jabbar, and James Worthy, the Lakers played an exciting brand of basketball that was dubbed "Showtime."</p>
-    <h2>The Kobe and Shaq Era</h2>
-    <img src="https://cdn.pixabay.com/photo/2016/02/22/20/03/basketball-1215750_960_720.jpg" alt="Kobe Bryant and Shaquille O'Neal">
-    <p>In the early 2000s, the Lakers were dominant once again, winning three consecutive championships from 2000-2002. The team was led by superstars Kobe Bryant and Shaquille O'Neal, and coached by Phil Jackson.</p>
-    <h2>The Modern Lakers</h2>
-    <img src="https://cdn.pixabay.com/photo/2018/01/06/09/34/basketball-3060116_960_720.jpg" alt="Los Angeles Lakers game">
-    <p>The Lakers continue to be one of the most popular and successful NBA franchises. The team is currently led by superstars LeBron James and Anthony Davis. The Lakers won the NBA championship in 2020, their first since 2010.</p>
-  </body>
+<head>
+	<title>Los Angeles Lakers</title>
+	<style>
+		nav {
+			background-color: #552583;
+			padding: 10px;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+		nav ul li {
+			margin-right: 20px;
+		}
+		nav ul li a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#history">History</a></li>
+			<li><a href="#roster">Roster</a></li>
+			<li><a href="#schedule">Schedule</a></li>
+			<li><a href="#tickets">Tickets</a></li>
+		</ul>
+	</nav>
+
+	<section id="home">
+		<h1>Welcome to the Los Angeles Lakers</h1>
+		<p>The Los Angeles Lakers are a professional basketball team based in Los Angeles, California. They were founded in 1947 in Minneapolis, Minnesota, and moved to Los Angeles in 1960.</p>
+	</section>
+
+	<section id="history">
+		<h2>History of the Lakers</h2>
+		<p>The Lakers have won 17 NBA championships, tied with the Boston Celtics for the most in NBA history. They have also won 32 conference titles and 24 division titles. The team has had many notable players and coaches throughout their history.</p>
+	</section>
+
+	<section id="roster">
+		<h2>Lakers Roster</h2>
+		<p>Check out the current Lakers roster and player stats.</p>
+		<!-- Add roster and stats here -->
+	</section>
+
+	<section id="schedule">
+		<h2>Lakers Schedule</h2>
+		<p>View the Lakers' current and upcoming games.</p>
+		<!-- Add schedule here -->
+	</section>
+
+	<section id="tickets">
+		<h2>Lakers Tickets</h2>
+		<p>Get your tickets to see the Lakers play live at the Staples Center.</p>
+		<!-- Add ticket information here -->
+	</section>
+
+</body>
 </html>
