@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Los Angeles Lakers</title>
+	<title>The NBA</title>
 	<style>
-		nav {
-			background-color: #552583;
-			padding: 10px;
-		}
-		nav ul {
-			list-style: none;
+		body {
 			margin: 0;
 			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		header {
+			background-color: #1c2c6d;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		nav {
+			background-color: #f5f5f5;
 			display: flex;
 			justify-content: center;
+			align-items: center;
+			height: 50px;
 		}
-		nav ul li {
-			margin-right: 20px;
-		}
-		nav ul li a {
-			color: #fff;
+		
+		nav a {
+			color: #1c2c6d;
+			padding: 10px 20px;
 			text-decoration: none;
-			font-weight: bold;
-			font-size: 18px;
 		}
+		
+		nav a:hover {
+			background-color: #1c2c6d;
+			color: white;
+		}
+		
+		section {
+			padding: 20px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		h2 {
+			margin-top: 0;
+		}
+		
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: auto;
+		}
+		
 	</style>
 </head>
 <body>
-
+	<header>
+		<h1>The National Basketball Association (NBA)</h1>
+	</header>
+	
 	<nav>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#history">History</a></li>
-			<li><a href="#roster">Roster</a></li>
-			<li><a href="#schedule">Schedule</a></li>
-			<li><a href="#tickets">Tickets</a></li>
-		</ul>
+		<a href="#Home">History</a>
+		<a href="#teams">Teams</a>
+		<a href="#players">Players</a>
 	</nav>
-
-	<section id="home">
-		<h1>Welcome to the Los Angeles Lakers</h1>
-		<p>The Los Angeles Lakers are a professional basketball team based in Los Angeles, California. They were founded in 1947 in Minneapolis, Minnesota, and moved to Los Angeles in 1960.</p>
+	
+	<section id="Home">
+		<h2>NBA History</h2>
+		<p>The NBA was founded in 1946 as the Basketball Association of America (BAA). In 1949, the BAA merged with the National Basketball League (NBL) to form the NBA. Since then, the league has expanded to include 30 teams, and has become one of the most popular professional sports leagues in the world. The NBA is known for its high-scoring games, fast-paced action, and some of the most talented athletes in the world.</p>
 	</section>
-
-	<section id="history">
-		<h2>History of the Lakers</h2>
-		<p>The Lakers have won 17 NBA championships, tied with the Boston Celtics for the most in NBA history. They have also won 32 conference titles and 24 division titles. The team has had many notable players and coaches throughout their history.</p>
+	
+	<section id="teams">
+		<h2>NBA Teams</h2>
+		<p>The NBA is divided into two conferences: the Eastern Conference and the Western Conference. Each conference is further divided into three divisions, for a total of six divisions. There are currently 30 teams in the NBA, with 15 teams in each conference. Some of the most popular NBA teams include the Los Angeles Lakers, the Boston Celtics, and the Golden State Warriors.</p>
 	</section>
-
-	<section id="roster">
-		<h2>Lakers Roster</h2>
-		<p>Check out the current Lakers roster and player stats.</p>
-		<!-- Add roster and stats here -->
-	</section>
-
-	<section id="schedule">
-		<h2>Lakers Schedule</h2>
-		<p>View the Lakers' current and upcoming games.</p>
-		<!-- Add schedule here -->
-	</section>
-
-	<section id="tickets">
-		<h2>Lakers Tickets</h2>
-		<p>Get your tickets to see the Lakers play live at the Staples Center.</p>
-		<!-- Add ticket information here -->
-	</section>
-
-</body>
-</html>
+	
+	<section id="players">
+		<h2>NBA Players</h2>
+		<p>The NBA is known for its talented athletes, many of whom have become household names. Some of the most famous NBA players of all time include Michael Jordan, Kobe Bryant, LeBron James, Shaquille O'Neal, and Magic Johnson. Today's NBA stars include Stephen Curry, Kevin Durant, James Harden, and Giannis Antetokounmpo, among others.</
