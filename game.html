@@ -1,0 +1,40 @@
+<head>
+	<link rel="stylesheet" href="myStyle.css">
+	<link rel="icon" type="image/x-icon" href="basketball.png">
+</head>
+<html>
+    <header>
+		<h1>The National Basketball Association (NBA)</h1>
+	</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="teams.html">Teams</a>
+        <a href="players.html">Players</a>
+        <a href="champions.html">Champions</a>
+        <a href="MVPs.html">MVPs</a>
+        <a href="game.html">L.A. vs Denver</a>
+    </nav>
+
+	<a href="https://www.espn.com/nba/">
+		<img alt="nba" src="https://www.logodesignlove.com/images/classic/nba-logo.jpg" class="center" title="Lakers in 6!">
+	</a>
+    
+<body>
+	<h1>Who Will Win Round 3: Lakers or Nuggets?</h1>
+	<button id="lakers" onclick="predict('lakers')">Lakers</button>
+	<button id="nuggets" onclick="predict('nuggets')">Nuggets</button>
+	<p id="result"></p>
+	<script>
+		function predict(team) {
+			var result = Math.random();
+			if (result < 0.5) {
+				document.getElementById("result").innerHTML = "You predicted " + team + "... the Lakers won!";
+			} else {
+				document.getElementById("result").innerHTML = "Congratulations! You predicted " + team + " to win, and they did!";
+			}
+			document.getElementById("lakers").disabled = true;
+			document.getElementById("nuggets").disabled = true;
+		}
+	</script>
+</body>
+</html>
